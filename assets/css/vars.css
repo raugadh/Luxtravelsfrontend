@@ -1,0 +1,17 @@
+/* Colours Vars*/
+:root {
+	--drakeDark: #12232e;
+	--drakeLight: #203547;
+	--skyDark: #007cc7;
+	--skyLight: #4da8da;
+	--fontLight: #eedbdb;
+}
+/* responsive font Var */
+:root {
+	--base-font-size: 4px;
+	--fluid-typography-ratio: 0.825;
+
+	--rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+
+	font-size: var(--rem);
+}
